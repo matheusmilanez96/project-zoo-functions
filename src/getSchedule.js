@@ -56,6 +56,4 @@ const getSchedule = (scheduleTarget) => {
   return fullSchedule;
 };
 
-console.log(getSchedule('Monday'));
-
 module.exports = getSchedule;

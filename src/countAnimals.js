@@ -18,6 +18,4 @@ const countAnimals = (...animal) => {
   return genderAnimals.length;
 };
 
-console.log(countAnimals());
-
 module.exports = countAnimals;

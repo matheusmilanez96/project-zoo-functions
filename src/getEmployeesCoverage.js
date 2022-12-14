@@ -69,9 +69,4 @@ const getEmployeesCoverage = (...args) => {
   return createEmployeeObj(employee);
 };
 
-// console.log(createEmployeeObj(data.employees[0]));
-console.log(getEmployeesCoverage());
-// console.log(getEmployeesCoverage({ name: 'Sharonda' }));
-// console.log(getEmployeesCoverage({ id: '4b40a139-d4dc-4f09-822d-ec25e819a5ad' }));
-
 module.exports = getEmployeesCoverage;
